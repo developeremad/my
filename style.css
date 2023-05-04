@@ -1,0 +1,84 @@
+
+
+
+.allimgae-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+.groupimg1{
+    border: 1px solid black;
+    margin: 1px;
+    padding: 20px;
+}
+
+.groupimg1{
+    opacity: .5;
+    transition: .2s;
+}
+
+.groupimg1:hover{
+    opacity: 1;
+    background-color: rgba(201, 201, 236, 0.493);
+}
+
+
+.top-text{
+    padding: 60px 0;
+}
+
+.card{
+    position: relative;
+}
+
+
+.amar {
+    height: 50px;
+    width: 200px;
+    background-color: rgb(16, 36, 218);
+    position: absolute;
+    left: 176px;
+    right: 3px;
+    top: 40%;
+    animation: my 2s infinite ease-in-out;
+}
+
+.amar img{
+padding: 5px;
+}
+/* 
+@keyframes my{
+    from{
+        transform: scale(0);
+        background-color: aqua;
+    }
+    50%{
+        background-color: rgb(203, 98, 245) rotate(30deg);
+    }
+    to{
+     transform:  scale(1) rotateY(360deg);
+    }
+} */
+
+.footeritem li{
+    padding: 6px 0;
+}
+
+.footer{
+   background-color: #081828; 
+   padding: 40px;
+
+}
+
+.icon i{
+    padding:0 10px;
+}
+
+
+
+.footerlast h5{
+    margin-top: 90px;
+    padding-top: 50px;
+    margin-bottom: 0;
+}
